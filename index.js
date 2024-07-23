@@ -7,6 +7,7 @@ const dotenv = require("dotenv");
 // dotenv.config();
 
 if (process.env.NODE_ENV !== "production") {
+  // configuring environment
   dotenv.config();
 }
 const port = process.env.PORT || 3000;
