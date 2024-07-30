@@ -4,6 +4,7 @@ const app = express();
 const itemRoutes = require("./routes/items");
 const mongoose = require("mongoose");
 const dotenv = require("dotenv");
+// hi
 // dotenv.config();
 
 if (process.env.NODE_ENV !== "production") {
